@@ -1,4 +1,5 @@
 'use client';
+import Link from 'next/link';
 
 export default function CTASection() {
   return (
@@ -19,9 +20,11 @@ export default function CTASection() {
         </p>
 
         <div className="flex flex-col sm:flex-row gap-4 sm:gap-6 justify-center items-center">
+            <Link href="/post-event">
           <button className="w-full sm:w-auto px-10 py-4 bg-white text-purple-700 text-lg font-bold rounded-full hover:bg-blue-50 hover:shadow-2xl hover:scale-105 transition-all duration-300">
             Get Started
           </button>
+          </Link>
           <button className="w-full sm:w-auto px-10 py-4 bg-transparent text-white text-lg font-bold rounded-full border-2 border-white hover:bg-white/10 hover:shadow-2xl hover:scale-105 transition-all duration-300">
             Learn More
           </button>

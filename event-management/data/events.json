@@ -21,7 +21,6 @@
       "label": "Active Cities"
     }
   ],
-
   "howItWorks": [
     {
       "id": 1,
@@ -45,7 +44,6 @@
       "category": "VOLUNTEER"
     }
   ],
-
   "opportunities": [
     {
       "id": 1,
@@ -72,7 +70,6 @@
       "image": "/event3.jpg"
     }
   ],
-
   "volunteers": [
     {
       "id": 1,
@@ -80,7 +77,10 @@
       "rating": 4.8,
       "reviews": 32,
       "expertise": "Hospitality & Guest Handling",
-      "tags": ["College Student", "100+ Event Hours"],
+      "tags": [
+        "College Student",
+        "100+ Event Hours"
+      ],
       "location": "Jaipur",
       "price": "₹900–1,200/day",
       "image": "/volunteer1.jpg",
@@ -92,7 +92,10 @@
         "Problem Solving",
         "Team Collaboration"
       ],
-      "availability": ["Weekends & Weekdays", "Flexible Hours"],
+      "availability": [
+        "Weekends & Weekdays",
+        "Flexible Hours"
+      ],
       "pastEvents": [
         "Corporate Conference 2024 – Registration desk & guest assistance",
         "Music Festival – Summer Edition – VIP lounge management",
@@ -117,7 +120,10 @@
       "rating": 4.8,
       "reviews": 24,
       "expertise": "Backstage & Stage Crew",
-      "tags": ["Graphic Design Student", "50+ Event Hours"],
+      "tags": [
+        "Graphic Design Student",
+        "50+ Event Hours"
+      ],
       "location": "Jaipur",
       "price": "₹800–1,000/day",
       "image": "/volunteer2.jpg",
@@ -129,7 +135,10 @@
         "Technical Troubleshooting",
         "Team Work"
       ],
-      "availability": ["Weekends Only", "Evening Shifts Preferred"],
+      "availability": [
+        "Weekends Only",
+        "Evening Shifts Preferred"
+      ],
       "pastEvents": [
         "Jaipur Lit Fest 2024 – Stage management",
         "Rock On Concert Series – Backstage crew",
@@ -154,7 +163,10 @@
       "rating": 4.9,
       "reviews": 35,
       "expertise": "Registration Desk & Guest Relations",
-      "tags": ["MBA Student", "75+ Event Hours"],
+      "tags": [
+        "MBA Student",
+        "75+ Event Hours"
+      ],
       "location": "Jaipur",
       "price": "₹850–1,150/day",
       "image": "/volunteer3.jpg",
@@ -166,7 +178,10 @@
         "Crowd Management",
         "Multitasking"
       ],
-      "availability": ["Weekends & Weekdays", "Full Day Availability"],
+      "availability": [
+        "Weekends & Weekdays",
+        "Full Day Availability"
+      ],
       "pastEvents": [
         "Jaipur Business Summit 2024 – Main registration desk",
         "National Education Fair – Lead registration coordinator",
@@ -184,6 +199,81 @@
           "text": "Pooja managed 1000+ registrations single-handedly with a smile. Outstanding!"
         }
       ]
+    },
+    {
+      "id": 1763668339246,
+      "name": "Ayush Zala",
+      "rating": 4.9,
+      "reviews": 0,
+      "expertise": "Hospitality & Guest Handling",
+      "tags": [
+        "New Volunteer",
+        "Active"
+      ],
+      "location": "Ahmedabad",
+      "price": "₹800–1,800/day",
+      "image": "/uploads/volunteers/1763668339245-Wallpaper.jpg",
+      "about": "I am 6'4\"",
+      "skills": [
+        "Hospitality & Guest Handling"
+      ],
+      "availability": [
+        "Flexible",
+        "Paid Gigs Only"
+      ],
+      "pastEvents": [],
+      "reviewsList": []
+    },
+    {
+      "id": 1763668621096,
+      "name": "Himank ",
+      "rating": 4.9,
+      "reviews": 0,
+      "expertise": "Photography",
+      "tags": [
+        "New Volunteer",
+        "Active"
+      ],
+      "location": "Udaipur",
+      "price": "₹800–1,800/day",
+      "image": "/uploads/volunteers/1763668621093-hero-bg.png",
+      "about": "I am 5'8\"",
+      "skills": [
+        "Photography"
+      ],
+      "availability": [
+        "Flexible",
+        "Paid Gigs Only"
+      ],
+      "pastEvents": [],
+      "reviewsList": []
     }
-  ]
+  ],
+  "demoEventsForVolunteers": [
+    {
+      "id": 1,
+      "title": "Concert Demo",
+      "location": "Jaipur · Dec 30, 2023",
+      "venue": "Horizon Fest Demo",
+      "pay": "₹1,100/day",
+      "image": "/demo-concert.jpg"
+    },
+    {
+      "id": 2,
+      "title": "Wedding Demo",
+      "location": "Jaipur · May 28, 2024",
+      "venue": "Royal Palace Hall Demo",
+      "pay": "₹8,000/day",
+      "image": "/demo-wedding.jpg"
+    },
+    {
+      "id": 3,
+      "title": "College Fest Demo",
+      "location": "Jaipur · September 3, 2023",
+      "venue": "CampusK College Demo",
+      "pay": "₹1,300/day",
+      "image": "/demo-college.jpg"
+    }
+  ],
+  "users": []
 }

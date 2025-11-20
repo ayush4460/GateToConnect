@@ -55,7 +55,7 @@ export default function PostEventBasics({ onSkip, onContinue }: any) {
             </div>
             <div>
               <label className="block text-sm font-medium mb-2">Start Time</label>
-              <input name="dates" type="text" defaultValue="Jan 14 - Jan 15, 2026" className="w-full px-4 py-3 rounded-xl border bg-gray-50" readOnly />
+              <input name="dates" type="text" className="w-full px-4 py-3 rounded-xl border bg-gray-50" />
             </div>
           </div>
 

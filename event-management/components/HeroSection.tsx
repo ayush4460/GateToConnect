@@ -61,9 +61,11 @@ export default function HeroSection() {
             <div className="absolute inset-0 bg-gradient-to-r from-blue-400 to-purple-400 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
           </button>
 </Link>
-          <button className="px-10 py-5 bg-white/10 backdrop-blur-md text-white text-lg md:text-xl font-bold rounded-full border-2 border-white/50 hover:bg-white/20 hover:border-white hover:shadow-2xl transform hover:scale-105 transition-all duration-300">
-            Find Event Gigs
-          </button>
+         <Link href="/volunteer-dashboard">
+            <button className="px-10 py-5 bg-white/10 backdrop-blur-md text-white font-bold text-xl rounded-full border-2 border-white/50 hover:bg-white/20 hover:border-white transition">
+              Find Event Gigs
+            </button>
+          </Link>
         </div>
       </div>
 
