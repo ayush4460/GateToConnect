@@ -1,0 +1,189 @@
+{
+  "stats": [
+    {
+      "id": 1,
+      "value": "5,000+",
+      "label": "Verified Volunteers"
+    },
+    {
+      "id": 2,
+      "value": "1,500+",
+      "label": "Event Organizers"
+    },
+    {
+      "id": 3,
+      "value": "1,200+",
+      "label": "Events Completed"
+    },
+    {
+      "id": 4,
+      "value": "25+",
+      "label": "Active Cities"
+    }
+  ],
+
+  "howItWorks": [
+    {
+      "id": 1,
+      "icon": "FileText",
+      "title": "Post Your Event",
+      "description": "Organizers create an event post with details like role, pay, and location.",
+      "category": "ORGANIZER"
+    },
+    {
+      "id": 2,
+      "icon": "Users",
+      "title": "Apply or Hire",
+      "description": "Volunteers browse available gigs and organizers shortlist & confirm hires",
+      "category": "BOTH"
+    },
+    {
+      "id": 3,
+      "icon": "CreditCard",
+      "title": "Connect & Get Paid",
+      "description": "Work together smoothly — payments and reviews handled securely",
+      "category": "VOLUNTEER"
+    }
+  ],
+
+  "opportunities": [
+    {
+      "id": 1,
+      "category": "ENTERTAINMENT",
+      "title": "Music Festival Staff",
+      "location": "Austin, TX",
+      "pay": "$30/hour",
+      "image": "/event1.jpg"
+    },
+    {
+      "id": 2,
+      "category": "CORPORATE",
+      "title": "Business Expo Helper",
+      "location": "New York, NY",
+      "pay": "$32/hour",
+      "image": "/event2.jpg"
+    },
+    {
+      "id": 3,
+      "category": "FOOD & BEVERAGE",
+      "title": "Street Food Festival Assistant",
+      "location": "Portland, OR",
+      "pay": "$22/hour",
+      "image": "/event3.jpg"
+    }
+  ],
+
+  "volunteers": [
+    {
+      "id": 1,
+      "name": "Neha Kapoor",
+      "rating": 4.8,
+      "reviews": 32,
+      "expertise": "Hospitality & Guest Handling",
+      "tags": ["College Student", "100+ Event Hours"],
+      "location": "Jaipur",
+      "price": "₹900–1,200/day",
+      "image": "/volunteer1.jpg",
+      "about": "Experienced and reliable event professional with a passion for creating memorable experiences. Skilled in managing guest interactions, coordinating logistics, and ensuring smooth event operations. Known for professionalism, punctuality, and a friendly demeanor that puts guests at ease.",
+      "skills": [
+        "Guest Management",
+        "Event Coordination",
+        "Customer Service",
+        "Problem Solving",
+        "Team Collaboration"
+      ],
+      "availability": ["Weekends & Weekdays", "Flexible Hours"],
+      "pastEvents": [
+        "Corporate Conference 2024 – Registration desk & guest assistance",
+        "Music Festival – Summer Edition – VIP lounge management",
+        "Wedding Expo 2024 – Information booth & vendor coordination"
+      ],
+      "reviewsList": [
+        {
+          "author": "Rajesh Kumar",
+          "rating": 5,
+          "text": "Excellent service! Very professional and helped make our corporate event run smoothly. Highly recommend!"
+        },
+        {
+          "author": "Priya Mehta",
+          "rating": 5,
+          "text": "Great attitude and very reliable. Arrived on time and went above and beyond."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Rahul Choudhry",
+      "rating": 4.8,
+      "reviews": 24,
+      "expertise": "Backstage & Stage Crew",
+      "tags": ["Graphic Design Student", "50+ Event Hours"],
+      "location": "Jaipur",
+      "price": "₹800–1,000/day",
+      "image": "/volunteer2.jpg",
+      "about": "Creative and technically skilled backstage crew member with experience in stage setup, lighting, sound coordination, and artist management. Quick learner with strong problem-solving skills and ability to work under pressure during live events.",
+      "skills": [
+        "Stage Setup",
+        "Lighting & Sound",
+        "Artist Coordination",
+        "Technical Troubleshooting",
+        "Team Work"
+      ],
+      "availability": ["Weekends Only", "Evening Shifts Preferred"],
+      "pastEvents": [
+        "Jaipur Lit Fest 2024 – Stage management",
+        "Rock On Concert Series – Backstage crew",
+        "College Cultural Fest 2023 – Full production support"
+      ],
+      "reviewsList": [
+        {
+          "author": "Aman Singh",
+          "rating": 5,
+          "text": "Super reliable and technically sound. Handled last-minute changes perfectly!"
+        },
+        {
+          "author": "Vikram Rao",
+          "rating": 5,
+          "text": "Best backstage guy we've worked with. Calm under pressure and very professional."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Pooja Jain",
+      "rating": 4.9,
+      "reviews": 35,
+      "expertise": "Registration Desk & Guest Relations",
+      "tags": ["MBA Student", "75+ Event Hours"],
+      "location": "Jaipur",
+      "price": "₹850–1,150/day",
+      "image": "/volunteer3.jpg",
+      "about": "Organized and detail-oriented professional with excellent communication skills. Expert in managing registration desks, handling guest queries, and ensuring smooth check-in processes. Always maintains a positive attitude and professional appearance.",
+      "skills": [
+        "Registration Management",
+        "Guest Relations",
+        "Data Entry",
+        "Crowd Management",
+        "Multitasking"
+      ],
+      "availability": ["Weekends & Weekdays", "Full Day Availability"],
+      "pastEvents": [
+        "Jaipur Business Summit 2024 – Main registration desk",
+        "National Education Fair – Lead registration coordinator",
+        "Marathon 2024 – Participant check-in & bib distribution"
+      ],
+      "reviewsList": [
+        {
+          "author": "Dr. Neha Sharma",
+          "rating": 5,
+          "text": "Extremely organized and polite. Our registration was the smoothest ever!"
+        },
+        {
+          "author": "Karan Malhotra",
+          "rating": 5,
+          "text": "Pooja managed 1000+ registrations single-handedly with a smile. Outstanding!"
+        }
+      ]
+    }
+  ]
+}
