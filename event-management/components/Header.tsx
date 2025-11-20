@@ -32,12 +32,12 @@ export default function Header() {
 
             <div className="flex items-center gap-4">
               <div className="hidden md:flex items-center gap-4">
-                <button onClick={() => router.push('/auth')} className="px-6 py-2.5 text-purple-600 font-semibold border-2 border-purple-600 rounded-full hover:bg-purple-50 transition">
-                  Login
-                </button>
-                <button onClick={() => router.push('/auth')} className="px-6 py-2.5 bg-gradient-to-r from-purple-600 to-blue-600 text-white font-bold rounded-full hover:shadow-xl hover:scale-105 transition shadow-lg">
-                  Sign Up
-                </button>
+              <button onClick={() => router.push('/auth/login')} className="px-6 py-2.5 text-purple-600 font-semibold border-2 border-purple-600 rounded-full hover:bg-purple-50 transition">
+  Login
+</button>
+<button onClick={() => router.push('/auth/signup')} className="px-6 py-2.5 bg-gradient-to-r from-purple-600 to-blue-600 text-white font-bold rounded-full hover:shadow-xl hover:scale-105 transition shadow-lg">
+  Sign Up
+</button>
               </div>
 
               <button className="md:hidden p-2" onClick={() => setIsMenuOpen(!isMenuOpen)}>
@@ -50,15 +50,12 @@ export default function Header() {
         {isMenuOpen && (
           <div className="md:hidden bg-white border-t border-gray-200 shadow-lg">
             <div className="px-6 py-8 space-y-6">
-              <button onClick={() => { setShowContact(true); setIsMenuOpen(false); }} className="block w-full text-left text-gray-700 hover:text-purple-600 font-medium text-lg py-3 border-b">
-                Contact
-              </button>
-              <button onClick={() => router.push('/auth')} className="w-full px-6 py-3 text-purple-600 font-semibold border-2 border-purple-600 rounded-full hover:bg-purple-50 transition">
-                Login
-              </button>
-              <button onClick={() => router.push('/auth')} className="w-full px-6 py-3 bg-gradient-to-r from-purple-600 to-blue-600 text-white font-bold rounded-full hover:shadow-xl transition shadow-lg">
-                Sign Up
-              </button>
+             <button onClick={() => router.push('/auth/login')} className="w-full px-6 py-3 text-purple-600 font-semibold border-2 border-purple-600 rounded-full hover:bg-purple-50 transition">
+  Login
+</button>
+<button onClick={() => router.push('/auth/signup')} className="w-full px-6 py-3 bg-gradient-to-r from-purple-600 to-blue-600 text-white font-bold rounded-full hover:shadow-xl transition shadow-lg">
+  Sign Up
+</button>
             </div>
           </div>
         )}
