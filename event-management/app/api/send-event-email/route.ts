@@ -68,8 +68,8 @@ export async function POST(req: NextRequest) {
     `;
 
     await transporter.sendMail({
-      from: '"GateToConnect" <ayushgzala@gmail>',
-      to: 'ayushgzala@gmail',  // ← Your email
+      from: '"GateToConnect" <ayushgzala@gmail.com>',
+      to: 'ayushgzala@gmail.com',  // ← Your email
       subject: `New Event Posted: ${title} in ${city}`,
       html: emailHTML,
     });
