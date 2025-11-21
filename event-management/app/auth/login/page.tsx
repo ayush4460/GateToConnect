@@ -5,6 +5,7 @@ import { signIn } from 'next-auth/react';
 import { useRouter } from 'next/navigation';
 import Image from 'next/image';
 import toast, { Toaster } from 'react-hot-toast';
+import Link from 'next/link';
 
 export default function LoginPage() {
   const router = useRouter();
@@ -81,9 +82,14 @@ export default function LoginPage() {
               </button>
             </p>
 
-            <p className="text-center text-xs text-gray-500 mt-8">
-              This site is protected by reCAPTCHA and the Google Privacy Policy and Terms of Service apply.
-            </p>
+          <p className="text-center text-xs text-gray-500 mt-8">
+  By logging in, you agree to our{" "}
+  <Link href="/terms" className="text-purple-600 hover:underline">Terms of Service</Link>{" "}
+  and{" "}
+  <Link href="/privacy" className="text-purple-600 hover:underline">Privacy Policy</Link>.
+  <br />
+  This site is protected by reCAPTCHA and Google services apply.
+</p>
           </div>
         </div>
       </div>

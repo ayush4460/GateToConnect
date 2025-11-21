@@ -6,6 +6,7 @@ import { useRouter } from 'next/navigation';
 import Image from 'next/image';
 import { useState } from 'react';
 import toast, { Toaster } from 'react-hot-toast';
+import Link from 'next/link';
 
 export default function SignupPage() {
   const router = useRouter();
@@ -66,18 +67,24 @@ export default function SignupPage() {
                 required
               />
 
-              <label className="flex items-center gap-3 cursor-pointer">
-                <input
-                  type="checkbox"
-                  checked={agreed}
-                  onChange={(e) => setAgreed(e.target.checked)}
-                  className="w-5 h-5 text-purple-600 rounded"
-                />
-                <span className="text-sm text-gray-700">
-                  I agree to the <a href="#" className="text-purple-600 underline">Terms of Service</a> and{" "}
-                  <a href="#" className="text-purple-600 underline">Privacy Policy</a>
-                </span>
-              </label>
+             <label className="flex items-center gap-3 cursor-pointer">
+  <input
+    type="checkbox"
+    checked={agreed}
+    onChange={(e) => setAgreed(e.target.checked)}
+    className="w-5 h-5 text-purple-600 rounded"
+  />
+  <span className="text-sm text-gray-700">
+    I agree to the{" "}
+    <Link href="/terms" className="text-purple-600 underline hover:text-purple-700">
+      Terms of Service
+    </Link>{" "}
+    and{" "}
+    <Link href="/privacy" className="text-purple-600 underline hover:text-purple-700">
+      Privacy Policy
+    </Link>
+  </span>
+</label>
 
               <button
                 disabled={!agreed}

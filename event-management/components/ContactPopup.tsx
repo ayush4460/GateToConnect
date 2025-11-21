@@ -94,7 +94,7 @@ export default function ContactPopup({ isOpen, onClose }: Props) {
 
             <div>
               <label className="block text-sm font-medium text-gray-700 mb-2">
-                Email <span className="text-red-500">*</span>
+                Email
               </label>
               <input
                 type="email"
