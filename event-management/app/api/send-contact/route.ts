@@ -37,7 +37,7 @@ export async function POST(req: NextRequest) {
 
     await transporter.sendMail({
       from: '"GateToConnect Contact" <ayushzala4460@gmail.com>',
-      to: 'gatetoconnect@gmail.com',
+      to: 'ayushgzala@gmail',
       subject: `New Contact Request from ${name}`,
       html,
     });
