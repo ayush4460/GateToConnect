@@ -3,8 +3,8 @@
 
 import Link from 'next/link';
 import Image from 'next/image';
-import eventsData from '@/data/events.json';
-
+import eventsData from "@/data/events.json" with { type: "json" };
+const data = eventsData as any;
 export default function VolunteerDashboard() {
   const demoEvents = eventsData.demoEventsForVolunteers || [];
 
