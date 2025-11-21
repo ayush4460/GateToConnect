@@ -8,10 +8,17 @@ import { Upload, ChevronLeft } from 'lucide-react';
 export default function CreateVolunteerProfile() {
   const router = useRouter();
   const [formData, setFormData] = useState({
-    name: '', city: '', phone: '', email: '',
-    roles: [], pastExperience: '', weekdays: '', availability: '',
-    bio: '', photo: null as File | null
-  });
+  name: '', 
+  city: '', 
+  phone: '', 
+  email: '',
+  roles: [] as string[],           // ← THIS IS THE ONLY FIX
+  pastExperience: '', 
+  weekdays: '', 
+  availability: '',
+  bio: '', 
+  photo: null as File | null
+});
 
   const roles = ["Hospitality & Guest Handling", "Backstage & Stage Crew", "Registration Desk", "Crowd Management", "Photography", "Emcee Support"];
 

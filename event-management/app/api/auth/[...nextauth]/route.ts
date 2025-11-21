@@ -61,10 +61,12 @@ const handler = NextAuth({
       }
       return true;
     },
-    async session({ session, token }) {
+   async session({ session, token }) {
+    if (token.sub) {
       session.user.id = token.sub;
-      return session;
     }
+    return session;
+  }
   },
   pages: {
     signIn: '/auth',
